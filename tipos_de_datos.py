@@ -10,6 +10,7 @@
 # esto es un string
 
 "hola"
+'hola'
 
 # esto es una variable
 nombre = "Héctor"
