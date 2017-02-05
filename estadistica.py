@@ -37,8 +37,11 @@ def mediana(lista_valores):
     # impar: valor central
 
     lista_valores.sort()
-    if len(lista_valores) % 2:
-
+    count = len(lista_valores)
+    if count % 2:
+        return lista_valores[n/2]
+    else:
+        return (lista_valores[n/2] + lista_valores[n/2 + 1])/2
     return mediana
 
 
