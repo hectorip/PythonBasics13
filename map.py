@@ -6,5 +6,4 @@ def cubo(n):
     return n*n*n
 
 
-# IFTTT
 list(map(cubo, lista))
